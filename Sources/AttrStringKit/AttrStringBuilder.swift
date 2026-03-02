@@ -15,4 +15,8 @@ import Foundation
 	public static func buildExpression(_ expression: String) -> AttributedString {
 		expression.toAttrString()
 	}
+
+	public static func buildExpression(_ expression: AttributedString) -> AttributedString {
+		expression
+	}
 }
